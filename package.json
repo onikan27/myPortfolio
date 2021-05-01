@@ -25,5 +25,11 @@
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "prettier": "^2.2.1",
     "typescript": "^4.2.4"
+  },
+  "lint-staged": {
+    "*.@(ts|tsx)": [
+      "yarn lint",
+      "yarn format"
+    ]
   }
 }
