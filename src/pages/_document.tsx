@@ -1,11 +1,11 @@
 import NextDocument, { Head, Html, Main, NextScript } from 'next/document'
 
-interface Props {}
-class Document extends NextDocument<Props> {
+// interface Props {}
+class Document extends NextDocument {
   render() {
     return (
       <Html lang="ja">
-        <Head></Head>
+        <Head />
         <body>
           <Main />
           <NextScript />

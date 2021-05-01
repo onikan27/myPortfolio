@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --ext ts --ext tsx",
-    "format": "prettier --write ."
+    "lint": "eslint src --ext ts --ext tsx --fix",
+    "format": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "10.2.0",
