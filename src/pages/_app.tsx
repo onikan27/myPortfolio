@@ -7,9 +7,11 @@ import { theme } from 'src/styles/theme'
 
 const MyApp: NextPage<AppProps> = ({ Component, pageProps }: AppProps) => {
   return (
-    <ChakraProvider theme={theme}>
-      <Component {...pageProps} />
-    </ChakraProvider>
+    <>
+      <ChakraProvider theme={theme}>
+        <Component {...pageProps} />
+      </ChakraProvider>
+    </>
   )
 }
 
