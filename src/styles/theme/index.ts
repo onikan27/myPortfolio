@@ -9,6 +9,8 @@ export const theme = extendTheme({
         fontFamily:
           '-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Hiragino Kaku Gothic ProN,Hiragino Sans,ヒラギノ角ゴ ProN W3,Arial,メイリオ,Meiryo,sans-serif',
         overflow: 'hidden',
+        fontSize: '18px',
+        lineHeight: '36px',
       },
       a: {
         color: 'inherit',
