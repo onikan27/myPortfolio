@@ -1,14 +1,16 @@
 import { Flex, Text } from '@chakra-ui/layout'
 
-type HeaderProps = {
-  header: string
-}
-
-const Header: React.FC<HeaderProps> = ({ header }) => {
+const Header: React.FC = ({ children }) => {
   return (
     <Flex>
-      <Text fontSize="24px" fontWeight="700" lineHeight="1.75" color="#222">
-        {header}
+      <Text
+        fontSize="24px"
+        fontWeight="700"
+        lineHeight="1.75"
+        color="#222"
+        mt="50px"
+      >
+        {children}
       </Text>
     </Flex>
   )
