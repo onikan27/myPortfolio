@@ -10,6 +10,7 @@ const MainLayout: React.FC = ({ children }) => {
       <Box w="620px" m="0 auto">
         {children}
       </Box>
+      <Box mt="48px" />
     </>
   )
 }
