@@ -1,6 +1,9 @@
-import { Box } from '@chakra-ui/react'
+import { Box, Center, Flex, Image, Link } from '@chakra-ui/react'
 import { NextPage } from 'next'
+import Text from 'src/components/atoms/Text'
+import TextHeader from 'src/components/atoms/TextHeader'
 import Title from 'src/components/atoms/Title'
+import UpdateDay from 'src/components/atoms/UpdateDay'
 import MainLayout from 'src/components/layout/MainLayout'
 
 const Home: NextPage = () => {
@@ -8,7 +11,96 @@ const Home: NextPage = () => {
     <>
       <Box w="100%">
         <MainLayout>
-          <Title>Hello</Title>
+          <Center mb="64px">
+            <Image src="/myprofile.svg" w="440px" h="280px" />
+          </Center>
+          <Title>About Me</Title>
+          <UpdateDay>2021/05/01</UpdateDay>
+          <TextHeader>基本情報</TextHeader>
+          <Text>
+            東京在住の20歳。執行役員&amp;エンジニア&amp;PMをしています。サービス開発とDevOpsが大好きです。
+          </Text>
+          <Text>
+            <b>【学歴・職歴】</b>
+          </Text>
+          <li>法政大学・経済学部・現代ビジネス学科（2年間休学）</li>
+          <li>ヘルスケアITベンチャー：フルタイムで学生インターン（7ヶ月間）</li>
+          <li>SaaSスタートアップ：執行役員&amp;エンジニア&amp;PMを担当</li>
+
+          <TextHeader>スキル</TextHeader>
+          <Text>
+            <b>【言語】</b>
+          </Text>
+          <Flex mt="24px">
+            <Image src="/skill/html.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/css.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/sass.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/js.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/typescript.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/ruby.svg" w="60px" h="60px" mr="15px" />
+          </Flex>
+
+          <Text>
+            <b>【フレームワーク・ライブラリ】</b>
+          </Text>
+          <Flex mt="24px">
+            <Image src="/skill/rails.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/react.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/next-js.svg" w="60px" h="60px" mr="15px" />
+          </Flex>
+
+          <Text>
+            <b>【インフラ・その他】</b>
+          </Text>
+          <Flex mt="24px">
+            <Image src="/skill/docker.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/github-icon.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/aws.svg" w="60px" h="60px" mr="15px" />
+          </Flex>
+          <Flex mt="16px">
+            <Image src="/skill/aws-s3.png" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/aws-vpc.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/aws-ec2.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/aws-rds.svg" w="60px" h="60px" mr="15px" />
+            <Image
+              src="/skill/aws-cloudfront.svg"
+              w="60px"
+              h="60px"
+              mr="15px"
+            />
+            <Image src="/skill/aws-lamda.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/aws-ecr.png" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/aws-ecs.png" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/aws-route53.svg" w="60px" h="60px" mr="15px" />
+          </Flex>
+          <Flex mt="16px">
+            <Image src="/skill/aws-elb.svg" w="60px" h="60px" mr="15px" />
+            <Image
+              src="/skill/aws-cloudwatch.svg"
+              w="60px"
+              h="60px"
+              mr="15px"
+            />
+          </Flex>
+
+          <TextHeader>SNSアカウント</TextHeader>
+          <Flex mt="24px">
+            <Box mr="15px">
+              <Link href="https://twitter.com/1027_onikan">
+                <Image src="/twitter.png" w="50px" h="50px" />
+              </Link>
+            </Box>
+            <Box mr="15px">
+              <Link href="https://github.com/onikan27">
+                <Image src="/skill/github-icon.svg" w="50px" h="50px" />
+              </Link>
+            </Box>
+            <Box mr="15px">
+              <Link href="https://zenn.dev/akino">
+                <Image src="/skill/zenn.png" w="50px" h="50px" />
+              </Link>
+            </Box>
+          </Flex>
         </MainLayout>
       </Box>
     </>
