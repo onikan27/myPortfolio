@@ -10,8 +10,8 @@ const Header: React.FC = () => {
           </Text>
         </Link>
       </Flex>
-      <Flex w="200px" alignItems="center" justifyContent="space-between">
-        <Link href="/about" style={{ textDecoration: 'none' }}>
+      <Flex w="230px" alignItems="center" justifyContent="space-between">
+        <Link href="/" style={{ textDecoration: 'none' }}>
           <Text fontSize="18px" fontWeight="700">
             About
           </Text>
@@ -19,7 +19,7 @@ const Header: React.FC = () => {
 
         <Link href="/career" style={{ textDecoration: 'none' }}>
           <Text fontSize="18px" fontWeight="700">
-            Career
+            Career&amp;Skill
           </Text>
         </Link>
 
