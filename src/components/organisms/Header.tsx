@@ -3,19 +3,14 @@ import { Flex, Link, Text } from '@chakra-ui/react'
 const Header: React.FC = () => {
   return (
     <Flex h="64px" mr="24px" ml="24px" justifyContent="space-between">
-      <Flex textAlign="left" alignItems="center">
+      <Flex alignItems="center">
         <Link href="/" style={{ textDecoration: 'none' }}>
           <Text fontSize="30px" fontWeight="700">
             Akino
           </Text>
         </Link>
       </Flex>
-      <Flex
-        w="200px"
-        textAlign="right"
-        alignItems="center"
-        justifyContent="space-between"
-      >
+      <Flex w="200px" alignItems="center" justifyContent="space-between">
         <Link href="/about" style={{ textDecoration: 'none' }}>
           <Text fontSize="18px" fontWeight="700">
             About
