@@ -1,8 +1,8 @@
 import { Flex, Text } from '@chakra-ui/layout'
 
-const Header: React.FC = ({ children }) => {
+const TextHeader: React.FC = ({ children }) => {
   return (
-    <Flex>
+    <Flex borderBottom="1px solid rgba(92,147,187,.17)">
       <Text
         fontSize="24px"
         fontWeight="700"
@@ -16,4 +16,4 @@ const Header: React.FC = ({ children }) => {
   )
 }
 
-export default Header
+export default TextHeader
