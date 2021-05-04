@@ -15,7 +15,7 @@ const career: NextPage = () => {
           <Center mb="64px">
             <Image src="/carrier.svg" w="440px" h="280px" />
           </Center>
-          <Title>My Career</Title>
+          <Title>My Career &amp; Skill</Title>
           <UpdateDay>2021/05/01</UpdateDay>
 
           <TextHeader>キャリア要約</TextHeader>
