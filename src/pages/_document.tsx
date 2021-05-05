@@ -48,7 +48,6 @@ class Document extends NextDocument {
           <meta name="twitter:site" content="@1027_onikan" />
           <meta name="twitter:title" content="Portfolio-Onikan" />
           <meta name="twitter:description" content="I'm Akino" />
-          <meta name="twitter:image" content="/portfolio.png" />
         </Head>
         <body>
           <Main />
