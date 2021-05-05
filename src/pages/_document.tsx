@@ -1,6 +1,5 @@
 import NextDocument, { Head, Html, Main, NextScript } from 'next/document'
 
-// interface Props {}
 class Document extends NextDocument {
   render() {
     return (
@@ -46,7 +45,7 @@ class Document extends NextDocument {
           />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
-          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:card" content="summary" />
           <meta property="og:site_name" content="Portfolio-Onikan" />
           <meta name="twitter:site" content="@1027_onikan" />
           <meta name="twitter:title" content="Portfolio-Onikan" />
