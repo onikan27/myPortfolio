@@ -18,7 +18,8 @@ const Home: NextPage = () => {
           <UpdateDay>2021/05/01</UpdateDay>
           <TextHeader>基本情報</TextHeader>
           <Text>
-            東京在住の20歳。執行役員&amp;エンジニア&amp;PMをしています。サービス開発とDevOpsが大好きです。
+            秋野と申します。「<b>おにかん</b>
+            」と呼んでください。東京在住。SaaSスタートアップで執行役員&amp;エンジニア&amp;PMをしています。サービス開発とDevOpsが大好きです。
           </Text>
           <Text>
             <b>【学歴・職歴】</b>
