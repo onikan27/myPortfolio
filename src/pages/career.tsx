@@ -24,7 +24,7 @@ const career: NextPage = () => {
 
           <TextHeader>キャリア要約</TextHeader>
           <Text>
-            プログラミング歴、1年11ヶ月。エンジニア歴11ヶ月です。法政大学を休学してプログラミングの独学を開始。ヘルスケアITベンチャーに保守改修業務を行ったのちに、
+            プログラミング歴、1年11ヶ月。エンジニア歴11ヶ月です。法政大学を休学してプログラミングの独学を開始。ヘルスケアITベンチャーで保守改修業務を行ったのちに、
             <b>
               現在はSaaSスタートアップに共同創業者&amp;執行役員&amp;エンジニア&amp;PMとして新規事業立ち上げ
             </b>
@@ -211,7 +211,7 @@ const career: NextPage = () => {
             </p>
             <p>
               使用技術：Ruby on Rails, Next.js, Docker, GithubActions, AWS,
-              Vercel, ReactNative, Algolia
+              Vercel, ReactNative, Algolia, Electron
             </p>
           </QuoteBox>
           <Text>
