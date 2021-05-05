@@ -8,8 +8,12 @@ const career: NextPage = () => {
     <>
       <Box w="100%">
         <MainLayout>
-          <Center mb="64px">
-            <Image src="/blog.svg" w="440px" h="280px" />
+          <Center mb={['32px', '64px']}>
+            <Image
+              src="/blog.svg"
+              w={['300px', '440px']}
+              h={['150px', '280px']}
+            />
           </Center>
           <Title>Blog</Title>
         </MainLayout>

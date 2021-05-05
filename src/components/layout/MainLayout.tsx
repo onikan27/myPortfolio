@@ -7,7 +7,7 @@ const MainLayout: React.FC = ({ children }) => {
       <Box borderBottom="1px solid rgba(92,147,187,0.17)" mb="32px">
         <Header />
       </Box>
-      <Box w="620px" m="0 auto">
+      <Box w={['320px', '620px']} m="0 auto">
         {children}
       </Box>
       <Box mt="48px" />

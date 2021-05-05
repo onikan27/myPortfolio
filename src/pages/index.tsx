@@ -11,8 +11,12 @@ const Home: NextPage = () => {
     <>
       <Box w="100%">
         <MainLayout>
-          <Center mb="64px">
-            <Image src="/myprofile.svg" w="440px" h="280px" />
+          <Center mb={['32px', '64px']}>
+            <Image
+              src="/myprofile.svg"
+              w={['300px', '440px']}
+              h={['150px', '280px']}
+            />
           </Center>
           <Title>About Me</Title>
           <UpdateDay>2021/05/01</UpdateDay>
@@ -32,7 +36,12 @@ const Home: NextPage = () => {
           <Text>
             <b>【言語】</b>
           </Text>
-          <Flex mt="24px">
+          <Flex
+            mt="24px"
+            flexWrap="wrap"
+            gridTemplateColumns="repeat(2,1fr)"
+            gridGap="10px 0"
+          >
             <Image src="/skill/html.svg" w="60px" h="60px" mr="15px" />
             <Image src="/skill/css.svg" w="60px" h="60px" mr="15px" />
             <Image src="/skill/sass.svg" w="60px" h="60px" mr="15px" />
@@ -58,7 +67,12 @@ const Home: NextPage = () => {
             <Image src="/skill/github-icon.svg" w="60px" h="60px" mr="15px" />
             <Image src="/skill/aws.svg" w="60px" h="60px" mr="15px" />
           </Flex>
-          <Flex mt="16px">
+          <Flex
+            mt="10px"
+            flexWrap="wrap"
+            gridTemplateColumns="repeat(2,1fr)"
+            gridGap="10px 0"
+          >
             <Image src="/skill/aws-s3.png" w="60px" h="60px" mr="15px" />
             <Image src="/skill/aws-vpc.svg" w="60px" h="60px" mr="15px" />
             <Image src="/skill/aws-ec2.svg" w="60px" h="60px" mr="15px" />
@@ -73,8 +87,6 @@ const Home: NextPage = () => {
             <Image src="/skill/aws-ecr.png" w="60px" h="60px" mr="15px" />
             <Image src="/skill/aws-ecs.png" w="60px" h="60px" mr="15px" />
             <Image src="/skill/aws-route53.svg" w="60px" h="60px" mr="15px" />
-          </Flex>
-          <Flex mt="16px">
             <Image src="/skill/aws-elb.svg" w="60px" h="60px" mr="15px" />
             <Image
               src="/skill/aws-cloudwatch.svg"
