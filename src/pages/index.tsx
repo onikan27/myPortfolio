@@ -83,6 +83,11 @@ const Home: NextPage = () => {
               mr="15px"
             />
           </Flex>
+          <Box mt="16px">
+            <Link href="career" color="#708090">
+              詳細なキャリア・スキル
+            </Link>
+          </Box>
 
           <TextHeader>SNSアカウント</TextHeader>
           <Flex mt="24px">
