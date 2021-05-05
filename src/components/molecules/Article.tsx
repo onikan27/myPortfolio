@@ -21,6 +21,7 @@ const Article: React.FC<ArticleProps> = ({
         boxShadow="0 3px 6px -2px rgb(0 20 60 / 20%)"
         w={['320px', '290px']}
         position="relative"
+        mb={['20px', 0]}
       >
         <Flex
           bg="#f2f4f5"
