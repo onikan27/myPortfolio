@@ -40,11 +40,9 @@ class Document extends NextDocument {
             content="https://onikan-portfolio.s3-ap-northeast-1.amazonaws.com/portfolio.png"
           />
           <meta
-            name="twitter:url"
+            name="twitter:image"
             content="https://onikan-portfolio.s3-ap-northeast-1.amazonaws.com/portfolio.png"
           />
-          <meta property="og:image:width" content="1200" />
-          <meta property="og:image:height" content="630" />
           <meta name="twitter:card" content="summary" />
           <meta property="og:site_name" content="Portfolio-Onikan" />
           <meta name="twitter:site" content="@1027_onikan" />
