@@ -33,14 +33,12 @@ class Document extends NextDocument {
           <meta name="theme-color" content="#ffffff" />
           <title>Portfolio-Onikan</title>
           <meta property="og:title" content="Portfolio-Onikan" />
-          <meta
-            property="og:description"
-            content="秋野のポートフォリオです。"
-          />
+          <meta property="og:description" content="Akino's Portfolio" />
           <meta property="og:type" content="blog" />
           <meta property="og:url" content="https://onikan.com/" />
           <meta property="og:image" content="/portfolio.png" />
-          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:url" content="/portfolio.png" />
+          <meta name="twitter:card" content="summary_large_image" />
           <meta property="og:site_name" content="Portfolio-Onikan" />
           <meta name="twitter:site" content="@1027_onikan" />
           <meta name="twitter:title" content="Portfolio-Onikan" />
