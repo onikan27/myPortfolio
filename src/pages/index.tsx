@@ -105,7 +105,7 @@ const Home: NextPage = () => {
           <Flex mt="24px">
             <Box mr="20px">
               <Link href="https://twitter.com/1027_onikan">
-                <Image src="/twitter.png" w="50px" h="50px" />
+                <Image src="/twitter.svg" w="50px" h="50px" />
               </Link>
             </Box>
             <Box mr="20px">
