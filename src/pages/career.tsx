@@ -43,7 +43,7 @@ const career: NextPage = () => {
             mt="24px"
             flexWrap="wrap"
             gridTemplateColumns="repeat(2,1fr)"
-            gridGap="10px 0"
+            gridGap="10px 6px"
           >
             <Image src="/skill/html.svg" w="60px" h="60px" mr="15px" />
             <Image src="/skill/css.svg" w="60px" h="60px" mr="15px" />
@@ -78,15 +78,15 @@ const career: NextPage = () => {
           </li>
 
           <Flex mt="24px">
-            <Image src="/skill/docker.svg" w="60px" h="60px" mr="15px" />
-            <Image src="/skill/github-icon.svg" w="60px" h="60px" mr="15px" />
-            <Image src="/skill/aws.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/docker.svg" w="60px" h="60px" mr="20px" />
+            <Image src="/skill/github-icon.svg" w="60px" h="60px" mr="20px" />
+            <Image src="/skill/aws.svg" w="60px" h="60px" mr="20px" />
           </Flex>
           <Flex
             mt="10px"
             flexWrap="wrap"
             gridTemplateColumns="repeat(2,1fr)"
-            gridGap="10px 0"
+            gridGap="10px 6px"
           >
             <Image src="/skill/aws-s3.png" w="60px" h="60px" mr="15px" />
             <Image src="/skill/aws-vpc.svg" w="60px" h="60px" mr="15px" />

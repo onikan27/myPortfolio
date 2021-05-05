@@ -40,7 +40,7 @@ const Home: NextPage = () => {
             mt="24px"
             flexWrap="wrap"
             gridTemplateColumns="repeat(2,1fr)"
-            gridGap="10px 0"
+            gridGap="10px 6px"
           >
             <Image src="/skill/html.svg" w="60px" h="60px" mr="15px" />
             <Image src="/skill/css.svg" w="60px" h="60px" mr="15px" />
@@ -54,24 +54,24 @@ const Home: NextPage = () => {
             <b>【フレームワーク・ライブラリ】</b>
           </Text>
           <Flex mt="24px">
-            <Image src="/skill/rails.svg" w="60px" h="60px" mr="15px" />
-            <Image src="/skill/react.svg" w="60px" h="60px" mr="15px" />
-            <Image src="/skill/next-js.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/rails.svg" w="60px" h="60px" mr="20px" />
+            <Image src="/skill/react.svg" w="60px" h="60px" mr="20px" />
+            <Image src="/skill/next-js.svg" w="60px" h="60px" mr="20px" />
           </Flex>
 
           <Text>
             <b>【インフラ・その他】</b>
           </Text>
           <Flex mt="24px">
-            <Image src="/skill/docker.svg" w="60px" h="60px" mr="15px" />
-            <Image src="/skill/github-icon.svg" w="60px" h="60px" mr="15px" />
-            <Image src="/skill/aws.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/docker.svg" w="60px" h="60px" mr="20px" />
+            <Image src="/skill/github-icon.svg" w="60px" h="60px" mr="20px" />
+            <Image src="/skill/aws.svg" w="60px" h="60px" mr="20px" />
           </Flex>
           <Flex
             mt="10px"
             flexWrap="wrap"
             gridTemplateColumns="repeat(2,1fr)"
-            gridGap="10px 0"
+            gridGap="10px 6px"
           >
             <Image src="/skill/aws-s3.png" w="60px" h="60px" mr="15px" />
             <Image src="/skill/aws-vpc.svg" w="60px" h="60px" mr="15px" />
@@ -103,17 +103,17 @@ const Home: NextPage = () => {
 
           <TextHeader>SNSアカウント</TextHeader>
           <Flex mt="24px">
-            <Box mr="15px">
+            <Box mr="20px">
               <Link href="https://twitter.com/1027_onikan">
                 <Image src="/twitter.png" w="50px" h="50px" />
               </Link>
             </Box>
-            <Box mr="15px">
+            <Box mr="20px">
               <Link href="https://github.com/onikan27">
                 <Image src="/skill/github-icon.svg" w="50px" h="50px" />
               </Link>
             </Box>
-            <Box mr="15px">
+            <Box mr="20px">
               <Link href="https://zenn.dev/akino">
                 <Image src="/skill/zenn.png" w="50px" h="50px" />
               </Link>
