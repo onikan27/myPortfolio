@@ -43,7 +43,7 @@ const career: NextPage = () => {
               release_date="2021.03.17"
             />
             <Article
-              title="【WEB DEVELOPER Roadmap】（1）Git,Github"
+              title="【WEB DEVELOPER Roadmap】（1）Git,Githubを0からまとめてみた"
               url="https://zenn.dev/akino/articles/2fef95b72f508a"
               platform="zenn"
               release_date="2021.05.07"
