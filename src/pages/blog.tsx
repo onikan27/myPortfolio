@@ -42,6 +42,12 @@ const career: NextPage = () => {
               platform="zenn"
               release_date="2021.03.17"
             />
+            <Article
+              title="【WEB DEVELOPER Roadmap】（1）Git,Github"
+              url="https://zenn.dev/akino/articles/2fef95b72f508a"
+              platform="zenn"
+              release_date="2021.05.07"
+            />
             {/* <Article title="" url="" platform="zenn" release_date=""/> */}
           </Flex>
         </MainLayout>
