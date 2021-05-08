@@ -138,9 +138,9 @@ const career: NextPage = () => {
           </Text>
           <li>ステージング環境構築</li>
           <li>Firebaseを使った認証基盤の構築</li>
-          <li>500エラー時にSlackに通知を飛ばす</li>
           <li>Vercelを使ったデプロイと、その運用</li>
           <li>デプロイ失敗時の自動ロールバック機能</li>
+          <li>本番環境で500エラー時にSlackに通知を飛ばす</li>
           <li>
             <b>GithubActionsを使ったCI/CDパイプラインの構築</b>
           </li>
