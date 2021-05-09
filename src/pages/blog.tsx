@@ -48,6 +48,12 @@ const career: NextPage = () => {
               platform="zenn"
               release_date="2021.05.07"
             />
+            <Article
+              title="【WEB DEVELOPER Roadmap】（2）Basic Terminal Usage"
+              url="https://zenn.dev/akino/articles/e3114695d022fc"
+              platform="zenn"
+              release_date="2021.05.09"
+            />
             {/* <Article title="" url="" platform="zenn" release_date=""/> */}
           </Flex>
         </MainLayout>
