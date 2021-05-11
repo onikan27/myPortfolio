@@ -54,6 +54,18 @@ const career: NextPage = () => {
               platform="zenn"
               release_date="2021.05.09"
             />
+            <Article
+              title="【WEB DEVELOPER Roadmap】（3）ライセンスについて軽くまとめてみた"
+              url="https://zenn.dev/akino/articles/a2d1959f4ef394"
+              platform="zenn"
+              release_date="2021.05.10"
+            />
+            <Article
+              title="【WEB DEVELOPER Roadmap】（4）セマンティック・バージョニングのお話"
+              url="https://zenn.dev/akino/articles/cd4bcb344c6e74"
+              platform="zenn"
+              release_date="2021.05.11"
+            />
             {/* <Article title="" url="" platform="zenn" release_date=""/> */}
           </Flex>
         </MainLayout>
