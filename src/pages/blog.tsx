@@ -43,25 +43,25 @@ const career: NextPage = () => {
               release_date="2021.03.17"
             />
             <Article
-              title="【WEB DEVELOPER Roadmap】（1）Git,Githubを0からまとめてみた"
+              title="Git,Githubを0からまとめてみた（1）"
               url="https://zenn.dev/akino/articles/2fef95b72f508a"
               platform="zenn"
               release_date="2021.05.07"
             />
             <Article
-              title="【WEB DEVELOPER Roadmap】（2）Basic Terminal Usage"
+              title="Basic Terminal Usage（2）"
               url="https://zenn.dev/akino/articles/e3114695d022fc"
               platform="zenn"
               release_date="2021.05.09"
             />
             <Article
-              title="【WEB DEVELOPER Roadmap】（3）ライセンスについて軽くまとめてみた"
+              title="ライセンスについて軽くまとめてみた（3）"
               url="https://zenn.dev/akino/articles/a2d1959f4ef394"
               platform="zenn"
               release_date="2021.05.10"
             />
             <Article
-              title="【WEB DEVELOPER Roadmap】（4）セマンティック・バージョニングのお話"
+              title="セマンティック・バージョニングのお話（4）"
               url="https://zenn.dev/akino/articles/cd4bcb344c6e74"
               platform="zenn"
               release_date="2021.05.11"
