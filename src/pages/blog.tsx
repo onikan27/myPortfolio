@@ -66,6 +66,12 @@ const career: NextPage = () => {
               platform="zenn"
               release_date="2021.05.11"
             />
+            <Article
+              title="デザインパターンについて少しまとめてみた"
+              url="https://zenn.dev/akino/articles/82b7503cd969fc"
+              platform="zenn"
+              release_date="2021.05.11"
+            />
             {/* <Article title="" url="" platform="zenn" release_date=""/> */}
           </Flex>
         </MainLayout>
