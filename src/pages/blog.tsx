@@ -70,7 +70,13 @@ const career: NextPage = () => {
               title="デザインパターンについて少しまとめてみた"
               url="https://zenn.dev/akino/articles/82b7503cd969fc"
               platform="zenn"
-              release_date="2021.05.11"
+              release_date="2021.05.12"
+            />
+            <Article
+              title="デザインパターンについて少しまとめてみた"
+              url="https://zenn.dev/akino/articles/05895f750b40d8"
+              platform="zenn"
+              release_date="2021.05.12"
             />
             {/* <Article title="" url="" platform="zenn" release_date=""/> */}
           </Flex>
