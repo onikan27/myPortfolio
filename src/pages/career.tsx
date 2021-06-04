@@ -20,11 +20,11 @@ const career: NextPage = () => {
             />
           </Center>
           <Title>My Career &amp; Skill</Title>
-          <UpdateDay>2021/05/01</UpdateDay>
+          <UpdateDay>2021/06/04</UpdateDay>
 
           <TextHeader>キャリア要約</TextHeader>
           <Text>
-            プログラミング歴、1年11ヶ月。エンジニア歴11ヶ月です。法政大学を休学してプログラミングの独学を開始。ヘルスケアITベンチャーで保守改修業務を行ったのちに、
+            プログラミング歴、2年。エンジニア歴1年です。法政大学を休学してプログラミングの独学を開始。ヘルスケアITベンチャーで保守改修業務を行ったのちに、
             <b>
               現在はSaaSスタートアップに共同創業者&amp;執行役員&amp;エンジニア&amp;PMとして新規事業立ち上げ
             </b>
@@ -58,6 +58,7 @@ const career: NextPage = () => {
           </Text>
           <li>Ruby on Rails</li>
           <li>React</li>
+          <li>React Native</li>
           <li>Next.js</li>
           <Flex mt="24px">
             <Image src="/skill/rails.svg" w="60px" h="60px" mr="15px" />
@@ -152,6 +153,7 @@ const career: NextPage = () => {
           <li>コミット時にRubocopを走らせる</li>
           <li>Sendgrid+ActionMailerのメール送信構築</li>
           <li>テーブル数500以上でのRailsの保守改修作業</li>
+          <li>Webフロント,NativeアプリのAPIとしての開発</li>
           <li>Algoliaを使った全文検索の構築（バックエンド検索）</li>
           <li>ActiveStorage+S3による画像,動画ファイルの管理機能実装</li>
           <li>Cookie,CORS設定,HTTPS通信でのSameSite,Secureなどの設定</li>
@@ -170,6 +172,20 @@ const career: NextPage = () => {
           <li>FLOCSS,BEM設計でのCSS（SCSS）開発経験</li>
           <li>Algoliaを使った全文検索の構築（フロントエンド検索）</li>
           <li>CSSフレームワーク（Chakra）を使った実務での開発経験</li>
+
+          <Text>
+            <b>【ネイティブ】</b>
+          </Text>
+          <Text>
+            React
+            Nativeを使ったクロスプラットフォームでのネイティブアプリ開発の開発経験があります。最近は
+            <b>新規プロジェクトの開発を担当しています。</b>
+          </Text>
+          <li>Expo環境での開発</li>
+          <li>無限スクロール実装</li>
+          <li>Google認証機能の作成</li>
+          <li>Expoを使わない環境での開発</li>
+          <li>Algoliaを使った全文検索の構築（フロントエンド検索）</li>
 
           <TextHeader>業務経歴</TextHeader>
 
@@ -235,6 +251,9 @@ const career: NextPage = () => {
             フロント側ではNext.jsの基盤構築、
             <b>Algoliaを使った全文検索の構築、</b>
             無限スクロールの開発、CSSフレームワーク（Chakra）を使った開発などを行っています。
+          </Text>
+          <Text>
+            ネイティブアプリ開発ではAlgoliaを使った全文検索の構築、無限スクロールの実装、Google認証の実装などを行っています。
           </Text>
         </MainLayout>
       </Box>

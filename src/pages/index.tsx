@@ -19,7 +19,7 @@ const Home: NextPage = () => {
             />
           </Center>
           <Title>About Me</Title>
-          <UpdateDay>2021/05/01</UpdateDay>
+          <UpdateDay>2021/06/01</UpdateDay>
           <TextHeader>基本情報</TextHeader>
           <Text>
             秋野と申します。「<b>おにかん</b>
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
           <Text>
             <b>【学歴・職歴】</b>
           </Text>
-          <li>法政大学・経済学部・現代ビジネス学科（2年間休学）</li>
+          <li>法政大学・経済学部・現代ビジネス学科（1年間休学）</li>
           <li>ヘルスケアITベンチャー：フルタイムで学生インターン（7ヶ月間）</li>
           <li>SaaSスタートアップ：執行役員&amp;エンジニア&amp;PMを担当</li>
 

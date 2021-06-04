@@ -31,37 +31,31 @@ const career: NextPage = () => {
               release_date="2021.01.21"
             />
             <Article
-              title="【Rails+Fargate】開発環境のDocker化+Fargateデプロイチュートリアル"
-              url="https://zenn.dev/akino/books/629502485ddb14"
-              platform="zenn"
-              release_date="2021.05.02"
-            />
-            <Article
               title="【Git-Flow+PR】プロジェクトをGit-Flowに移行してみた。"
               url="https://zenn.dev/akino/articles/1dcecd60009dbb"
               platform="zenn"
               release_date="2021.03.17"
             />
             <Article
-              title="Git,Githubを0からまとめてみた（1）"
+              title="Git,Githubを0からまとめてみた"
               url="https://zenn.dev/akino/articles/2fef95b72f508a"
               platform="zenn"
               release_date="2021.05.07"
             />
             <Article
-              title="Basic Terminal Usage（2）"
+              title="Basic Terminal Usage"
               url="https://zenn.dev/akino/articles/e3114695d022fc"
               platform="zenn"
               release_date="2021.05.09"
             />
             <Article
-              title="ライセンスについて軽くまとめてみた（3）"
+              title="ライセンスについて軽くまとめてみた"
               url="https://zenn.dev/akino/articles/a2d1959f4ef394"
               platform="zenn"
               release_date="2021.05.10"
             />
             <Article
-              title="セマンティック・バージョニングのお話（4）"
+              title="セマンティック・バージョニングのお話"
               url="https://zenn.dev/akino/articles/cd4bcb344c6e74"
               platform="zenn"
               release_date="2021.05.11"
