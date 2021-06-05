@@ -253,7 +253,7 @@ const career: NextPage = () => {
             無限スクロールの開発、CSSフレームワーク（Chakra）を使った開発などを行っています。
           </Text>
           <Text>
-            ネイティブアプリ開発ではAlgoliaを使った全文検索の構築、無限スクロールの実装、Google認証の実装などを行っています。
+            ネイティブアプリ開発ではAlgoliaを使った全文検索の構築、無限スクロールの実装やGoogle認証の実装などを行っています。
           </Text>
         </MainLayout>
       </Box>
