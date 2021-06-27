@@ -23,7 +23,7 @@ const Home: NextPage = () => {
           <TextHeader>基本情報</TextHeader>
           <Text>
             秋野と申します。「<b>おにかん</b>
-            」と呼んでください。東京在住の20歳です。SaaSスタートアップで執行役員&amp;エンジニア&amp;PMをしています。サービス開発とDevOpsが大好きです。
+            」と呼んでください。東京在住の21歳です。SaaSスタートアップで執行役員&amp;エンジニア&amp;PMをしています。サービス開発とDevOpsが大好きです。
           </Text>
           <Text>
             <b>【学歴・職歴】</b>
