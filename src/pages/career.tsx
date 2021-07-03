@@ -133,10 +133,12 @@ const career: NextPage = () => {
             <b>GithubActionsを使ったCI/CDパイプラインの構築</b>
           </li>
           <li>S3+CloudFrontを使った静的ファイルのホスティング</li>
-          <li>AWSのEC2を使ったRailsアプリケーションのインフラ構築</li>
+          <li>
+            AWSのEC2を使ったRailsアプリケーション（APIモード）のインフラ構築
+          </li>
           <li>
             <b>
-              AWSのECS（Fargate）を使ったRailsアプリケーションの0からのインフラ構築
+              AWSのECS（Fargate）を使ったRailsアプリケーション（APIモード）の0からのインフラ構築
             </b>
           </li>
 
@@ -149,8 +151,9 @@ const career: NextPage = () => {
             をしています。
           </Text>
           <li>RailsAPIでの開発経験</li>
-          <li>Punditを使った認可の構築</li>
+          <li>Punditを使った認可の実装</li>
           <li>コミット時にRubocopを走らせる</li>
+          <li>Firebaseを使った認証機能の開発経験</li>
           <li>Sendgrid+ActionMailerのメール送信構築</li>
           <li>テーブル数500以上でのRailsの保守改修作業</li>
           <li>Webフロント,NativeアプリのAPIとしての開発</li>
@@ -167,9 +170,10 @@ const career: NextPage = () => {
             をしています。
           </Text>
           <li>ContextAPIを使った状態管理</li>
+          <li>Firebaseを使った認証機能の開発経験</li>
           <li>Next.js+TypeScript環境での開発経験</li>
-          <li>Stoplightによるスキーマ駆動での開発</li>
           <li>FLOCSS,BEM設計でのCSS（SCSS）開発経験</li>
+          <li>Stoplightによるスキーマ駆動での開発と環境構築経験</li>
           <li>Algoliaを使った全文検索の構築（フロントエンド検索）</li>
           <li>CSSフレームワーク（Chakra）を使った実務での開発経験</li>
 
@@ -183,8 +187,8 @@ const career: NextPage = () => {
           </Text>
           <li>Expo環境での開発</li>
           <li>無限スクロール実装</li>
-          <li>Google認証機能の作成</li>
           <li>Expoを使わない環境での開発</li>
+          <li>Firebaseを使ったGoogle認証機能の作成</li>
           <li>Algoliaを使った全文検索の構築（フロントエンド検索）</li>
 
           <TextHeader>業務経歴</TextHeader>
