@@ -192,7 +192,6 @@ const career: NextPage = () => {
             <b>新規プロジェクトの開発を担当しています。</b>
           </Text>
           <li>Expo環境での開発</li>
-          <li>無限スクロール実装</li>
           <li>動画撮影機能の開発</li>
           <li>Expoを使わない環境での開発</li>
           <li>Firebaseを使ったGoogle認証機能の作成</li>
@@ -261,10 +260,10 @@ const career: NextPage = () => {
           <Text>
             フロント側ではNext.jsの基盤構築、
             <b>Algoliaを使った全文検索の構築、</b>
-            無限スクロールの開発、CSSフレームワーク（Chakra）を使った開発などを行っています。
+            CSSフレームワーク（Chakra）を使った開発などを行っています。
           </Text>
           <Text>
-            ネイティブアプリ開発ではAlgoliaを使った全文検索の構築、無限スクロールの実装やGoogle認証の実装、動画撮影機能などを行っています。
+            ネイティブアプリ開発ではAlgoliaを使った全文検索の構築、Google認証の実装、動画撮影機能などを行っています。
           </Text>
         </MainLayout>
       </Box>
