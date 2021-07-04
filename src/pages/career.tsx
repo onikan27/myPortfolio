@@ -83,6 +83,7 @@ const career: NextPage = () => {
             <Image src="/skill/github-icon.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/aws.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/firebase.svg" w="60px" h="60px" mr="20px" />
+            <Image src="/skill/vercel.svg" w="60px" h="60px" mr="20px" />
           </Flex>
           <Flex
             mt="10px"
@@ -132,6 +133,7 @@ const career: NextPage = () => {
           <li>ステージング環境構築</li>
           <li>Firebaseを使った認証基盤の構築</li>
           <li>500エラー時にSlackに通知を飛ばす</li>
+          <li>Vercelを使ったデプロイと、その運用</li>
           <li>デプロイ失敗時の自動ロールバック機能</li>
           <li>
             <b>GithubActionsを使ったCI/CDパイプラインの構築</b>
