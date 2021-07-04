@@ -19,7 +19,7 @@ const Home: NextPage = () => {
             />
           </Center>
           <Title>About Me</Title>
-          <UpdateDay>2021/06/01</UpdateDay>
+          <UpdateDay>2021/07/04</UpdateDay>
           <TextHeader>基本情報</TextHeader>
           <Text>
             秋野と申します。「<b>おにかん</b>
@@ -28,9 +28,11 @@ const Home: NextPage = () => {
           <Text>
             <b>【学歴・職歴】</b>
           </Text>
-          <li>法政大学・経済学部・現代ビジネス学科（1年間休学）</li>
+          <li>法政大学・経済学部・現代ビジネス学科</li>
           <li>ヘルスケアITベンチャー：フルタイムで学生インターン（7ヶ月間）</li>
-          <li>SaaSスタートアップ：執行役員&amp;エンジニア&amp;PMを担当</li>
+          <li>
+            SaaSスタートアップ：執行役員&amp;エンジニア&amp;PMを担当（現在）
+          </li>
 
           <TextHeader>スキル</TextHeader>
           <Text>
@@ -66,6 +68,7 @@ const Home: NextPage = () => {
             <Image src="/skill/docker.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/github-icon.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/aws.svg" w="60px" h="60px" mr="20px" />
+            <Image src="/skill/firebase.svg" w="60px" h="60px" mr="20px" />
           </Flex>
           <Flex
             mt="10px"
@@ -94,6 +97,7 @@ const Home: NextPage = () => {
               h="60px"
               mr="15px"
             />
+            <Image src="/skill/aws-sns.svg" w="60px" h="60px" mr="15px" />
           </Flex>
           <Box mt="16px">
             <Link href="career" color="#708090">

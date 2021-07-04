@@ -20,7 +20,7 @@ const career: NextPage = () => {
             />
           </Center>
           <Title>My Career &amp; Skill</Title>
-          <UpdateDay>2021/06/04</UpdateDay>
+          <UpdateDay>2021/07/04</UpdateDay>
 
           <TextHeader>キャリア要約</TextHeader>
           <Text>
@@ -75,13 +75,14 @@ const career: NextPage = () => {
           </li>
           <li>
             <b>AWS</b>：S3, VPC, EC2, RDS, CloudFront, Lambda, ECR,
-            ECS（Fargate）, Route53, ALB, ACM, CloudWatch
+            ECS（Fargate）, Route53, ALB, ACM, CloudWatch, SNS
           </li>
 
           <Flex mt="24px">
             <Image src="/skill/docker.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/github-icon.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/aws.svg" w="60px" h="60px" mr="20px" />
+            <Image src="/skill/firebase.svg" w="60px" h="60px" mr="20px" />
           </Flex>
           <Flex
             mt="10px"
@@ -110,6 +111,7 @@ const career: NextPage = () => {
               h="60px"
               mr="15px"
             />
+            <Image src="/skill/aws-sns.svg" w="60px" h="60px" mr="15px" />
           </Flex>
 
           <TextHeader>具体的な開発経験</TextHeader>
@@ -128,6 +130,8 @@ const career: NextPage = () => {
             しました。
           </Text>
           <li>ステージング環境構築</li>
+          <li>Firebaseを使った認証基盤の構築</li>
+          <li>500エラー時にSlackに通知を飛ばす</li>
           <li>デプロイ失敗時の自動ロールバック機能</li>
           <li>
             <b>GithubActionsを使ったCI/CDパイプラインの構築</b>
@@ -187,6 +191,7 @@ const career: NextPage = () => {
           </Text>
           <li>Expo環境での開発</li>
           <li>無限スクロール実装</li>
+          <li>動画撮影機能の開発</li>
           <li>Expoを使わない環境での開発</li>
           <li>Firebaseを使ったGoogle認証機能の作成</li>
           <li>Algoliaを使った全文検索の構築（フロントエンド検索）</li>
@@ -244,7 +249,7 @@ const career: NextPage = () => {
           <Text>
             インフラ側では
             <b>AWSでのECS（Fargate）を使った0からのインフラ構築、</b>
-            ステージング環境の構築、GithubActionsを使ったCI/CDパイプラインの構築、デプロイ失敗時に自動ロールバック構築などを担当しました。
+            ステージング環境の構築、GithubActionsを使ったCI/CDパイプラインの構築、デプロイ失敗時に自動ロールバック構築などを担当しました。また、500エラーが本番環境で発生した時にSlackに通知する仕組みも作りました。
           </Text>
           <Text>
             バックエンドのRails側ではコミット時にRubocopを走らせるなどの基盤構築、Docker-composeを使った開発環境のDocker化、
@@ -257,7 +262,7 @@ const career: NextPage = () => {
             無限スクロールの開発、CSSフレームワーク（Chakra）を使った開発などを行っています。
           </Text>
           <Text>
-            ネイティブアプリ開発ではAlgoliaを使った全文検索の構築、無限スクロールの実装やGoogle認証の実装などを行っています。
+            ネイティブアプリ開発ではAlgoliaを使った全文検索の構築、無限スクロールの実装やGoogle認証の実装、動画撮影機能などを行っています。
           </Text>
         </MainLayout>
       </Box>
