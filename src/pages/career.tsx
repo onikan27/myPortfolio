@@ -78,13 +78,19 @@ const career: NextPage = () => {
             ECS（Fargate）, Route53, ALB, ACM, CloudWatch, SNS
           </li>
 
-          <Flex mt="24px">
+          <Flex
+            mt="24px"
+            flexWrap="wrap"
+            gridTemplateColumns="repeat(2,1fr)"
+            gridGap="10px 0"
+          >
             <Image src="/skill/docker.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/github-icon.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/aws.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/firebase.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/vercel.svg" w="60px" h="60px" mr="20px" />
           </Flex>
+
           <Flex
             mt="10px"
             flexWrap="wrap"
