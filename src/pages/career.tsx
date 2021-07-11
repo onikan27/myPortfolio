@@ -75,7 +75,7 @@ const career: NextPage = () => {
           </li>
           <li>
             <b>AWS</b>：S3, VPC, EC2, RDS, CloudFront, Lambda, ECR,
-            ECS（Fargate）, Route53, ALB, ACM, CloudWatch, SNS
+            ECS（Fargate）, Route53, ALB, ACM, CloudWatch, SNS, AWSChatbot,, IAM
           </li>
 
           <Flex
