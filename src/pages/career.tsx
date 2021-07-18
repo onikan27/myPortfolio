@@ -254,7 +254,7 @@ const career: NextPage = () => {
           </Text>
           <Text>
             バックエンドのRails側ではコミット時にRubocopを走らせるなどの基盤構築、Docker-composeを使った開発環境のDocker化、
-            <b>FirebaseAuthentication+Rails+Next.js構成のGoogle認証の構築、</b>{' '}
+            <b>FirebaseAuthentication+Rails+Next.js構成のGoogle認証の構築、</b>
             SendGrid+ActionMailerを使ったメール送信などの実装、ActiveStorage+S3による画像,動画ファイルの管理機能などの実装を担当しました。
           </Text>
           <Text>
