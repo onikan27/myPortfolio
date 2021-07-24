@@ -31,7 +31,7 @@ const Header: React.FC = () => {
         </Box>
 
         <Box cursor="pointer">
-          <Link href="/blog">
+          <Link href="https://onikan-blog.com/">
             <Text fontSize="18px" fontWeight="700">
               Blog
             </Text>
