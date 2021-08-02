@@ -20,15 +20,22 @@ const career: NextPage = () => {
             />
           </Center>
           <Title>My Career &amp; Skill</Title>
-          <UpdateDay>2021/07/04</UpdateDay>
+          <UpdateDay>2021/08/02</UpdateDay>
 
           <TextHeader>キャリア要約</TextHeader>
           <Text>
             法政大学を休学してプログラミングの独学を開始。ヘルスケアITベンチャーで保守改修業務を行ったのちに、
             <b>
-              現在はSaaSスタートアップに共同創業者&amp;執行役員&amp;エンジニア新規事業立ち上げ
+              現在はSaaSスタートアップの共同創業者&amp;エンジニアとして新規事業立ち上げ
             </b>
             をしています。
+          </Text>
+          <Text>
+            また、エンジニアリングだけでなく、
+            <b>
+              仕様レベルでのディスカッション、壁打ちや投資家向けのピッチ経験
+            </b>
+            などでビジネスサイドでも貢献しています。
           </Text>
           <TextHeader>技術スタック</TextHeader>
           <Text>
@@ -75,7 +82,14 @@ const career: NextPage = () => {
           </li>
           <li>
             <b>AWS</b>：S3, VPC, EC2, RDS, CloudFront, Lambda, ECR,
-            ECS（Fargate）, Route53, ALB, ACM, CloudWatch, SNS, AWSChatbot,, IAM
+            ECS（Fargate）, Route53, ALB, ACM, CloudWatch, SNS, AWSChatbot, IAM,
+            AmazonPolly, AmazonTranslate
+          </li>
+          <li>
+            <b>GCP</b>：CloudStorage, Speech to Text
+          </li>
+          <li>
+            <b>Terraform</b>：インフラのコード化
           </li>
 
           <Flex
@@ -87,6 +101,8 @@ const career: NextPage = () => {
             <Image src="/skill/docker.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/github-icon.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/aws.svg" w="60px" h="60px" mr="20px" />
+            <Image src="/skill/gcp.svg" w="60px" h="60px" mr="20px" />
+            <Image src="/skill/Terraform.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/firebase.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/vercel.svg" w="60px" h="60px" mr="20px" />
           </Flex>
@@ -119,6 +135,7 @@ const career: NextPage = () => {
               mr="15px"
             />
             <Image src="/skill/aws-sns.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/aws-iam.svg" w="60px" h="60px" mr="15px" />
           </Flex>
 
           <TextHeader>具体的な開発経験</TextHeader>
@@ -126,7 +143,7 @@ const career: NextPage = () => {
             <b>【インフラ・DevOps】</b>
           </Text>
           <Text>
-            もっとも好きな分野がインフラ・DevOpsです。
+            もっとも好きな分野がインフラ・DevOpsです。0→1のインフラ構築や、インフラのコード化、
             <b>
               自動化を積極的に行うことでセキュリティの向上、リスクの減少、人件費の削減に貢献
             </b>
@@ -136,15 +153,17 @@ const career: NextPage = () => {
             </b>
             しました。
           </Text>
+          <Text>
+            <b>AWS</b>
+          </Text>
           <li>ステージング環境構築</li>
-          <li>Firebaseを使った認証基盤の構築</li>
-          <li>Vercelを使ったデプロイと、その運用</li>
           <li>デプロイ失敗時の自動ロールバック機能</li>
+          <li>Amazon Translateを使った翻訳機能の開発</li>
           <li>本番環境で500エラー時にSlackに通知を飛ばす</li>
-          <li>
-            <b>GithubActionsを使ったCI/CDパイプラインの構築</b>
-          </li>
           <li>S3+CloudFrontを使った静的ファイルのホスティング</li>
+          <li>
+            AmazonPolly（Text to Speech）を使った文字列の自動音声化機能の開発
+          </li>
           <li>
             AWSのEC2を使ったRailsアプリケーション（APIモード）のインフラ構築
           </li>
@@ -152,6 +171,24 @@ const career: NextPage = () => {
             <b>
               AWSのECS（Fargate）を使ったRailsアプリケーション（APIモード）の0からのインフラ構築
             </b>
+          </li>
+
+          <Text>
+            <b>GCP</b>
+          </Text>
+          <li>Cloud Storageを使った機能開発</li>
+          <li>Speech to Textを使った音声から字幕の自動作成機能の開発</li>
+
+          <Text>
+            <b>その他</b>
+          </Text>
+          <li>Vercelを使ったデプロイと、その運用</li>
+          <li>
+            <b>Terraform：AWSリソースのインフラコード化</b>
+          </li>
+          <li>Firebase Authenticationを使った認証基盤の構築</li>
+          <li>
+            <b>GithubActionsを使ったCI/CDパイプラインの構築</b>
           </li>
 
           <Text>
@@ -234,16 +271,16 @@ const career: NextPage = () => {
             <b>【SaaSスタートアップ】</b>
           </Text>
           <QuoteBox>
-            <p>全体：5人（時期によって変動あり）</p>
-            <p>エンジニア：3人（時期によって変動あり）</p>
+            <p>全体：6人（時期によって変動あり）</p>
+            <p>エンジニア：4人（時期によって変動あり）</p>
             <p>期間：2021/02/01〜現在</p>
-            <p>勤務形態：正社員</p>
+            <p>勤務形態：正社員・執行役員</p>
             <p>
               担当業務：<b>新規事業開発・PM・インフラ構築</b>
             </p>
             <p>
               使用技術：Ruby on Rails, Next.js, Docker, GithubActions, AWS,
-              Vercel, ReactNative, Algolia, Electron
+              Vercel, GCP, ReactNative, Firebase, Algolia, Electron
             </p>
           </QuoteBox>
           <Text>
@@ -256,7 +293,9 @@ const career: NextPage = () => {
           <Text>
             インフラ側では
             <b>AWSでのECS（Fargate）を使った0からのインフラ構築、</b>
-            ステージング環境の構築、GithubActionsを使ったCI/CDパイプラインの構築、デプロイ失敗時に自動ロールバック構築などを担当しました。また、500エラーが本番環境で発生した時にSlackに通知する仕組みも作りました。
+            ステージング環境の構築、GithubActionsを使ったCI/CDパイプラインの構築、デプロイ失敗時に自動ロールバック構築などを担当しました。翻訳機能の開発、AWSとGCPを連携させた音声→テキスト（Speech
+            to Text）自動生成機能の開発、テキストから音声（Text to
+            Speech）の自動生成機能の開発、また、500エラーが本番環境で発生した時にSlackに通知する仕組みも作りました。
           </Text>
           <Text>
             バックエンドのRails側ではコミット時にRubocopを走らせるなどの基盤構築、Docker-composeを使った開発環境のDocker化、
@@ -266,7 +305,7 @@ const career: NextPage = () => {
           <Text>
             フロント側ではNext.jsの基盤構築、
             <b>Algoliaを使った全文検索の構築、</b>
-            CSSフレームワーク（Chakra）を使った開発などを行っています。
+            CSSフレームワーク（Chakra-UI）を使った開発などを行っています。
           </Text>
           <Text>
             ネイティブアプリ開発ではAlgoliaを使った全文検索の構築、Google認証の実装、動画撮影機能などを行っています。

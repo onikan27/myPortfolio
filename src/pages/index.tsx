@@ -19,7 +19,7 @@ const Home: NextPage = () => {
             />
           </Center>
           <Title>About Me</Title>
-          <UpdateDay>2021/07/04</UpdateDay>
+          <UpdateDay>2021/08/02</UpdateDay>
           <TextHeader>基本情報</TextHeader>
           <Text>
             秋野と申します。「<b>おにかん</b>
@@ -29,9 +29,10 @@ const Home: NextPage = () => {
             <b>【学歴・職歴】</b>
           </Text>
           <li>法政大学・経済学部・現代ビジネス学科</li>
-          <li>ヘルスケアITベンチャー：フルタイムで学生インターン（7ヶ月間）</li>
+          <li>ヘルスケアITベンチャー：Railsエンジニア</li>
           <li>
-            SaaSスタートアップ：執行役員&amp;エンジニア&amp;PMを担当（現在）
+            SaaSスタートアップ：執行役員&amp;エンジニア&amp;PMを担当
+            <b>（現在）</b>
           </li>
 
           <TextHeader>スキル</TextHeader>
@@ -73,6 +74,8 @@ const Home: NextPage = () => {
             <Image src="/skill/docker.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/github-icon.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/aws.svg" w="60px" h="60px" mr="20px" />
+            <Image src="/skill/gcp.svg" w="60px" h="60px" mr="20px" />
+            <Image src="/skill/Terraform.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/firebase.svg" w="60px" h="60px" mr="20px" />
             <Image src="/skill/vercel.svg" w="60px" h="60px" mr="20px" />
           </Flex>
@@ -105,6 +108,7 @@ const Home: NextPage = () => {
               mr="15px"
             />
             <Image src="/skill/aws-sns.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/aws-iam.svg" w="60px" h="60px" mr="15px" />
           </Flex>
           <Box mt="16px">
             <Link href="career" color="#708090">
