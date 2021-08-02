@@ -293,9 +293,9 @@ const career: NextPage = () => {
           <Text>
             インフラ側では
             <b>AWSでのECS（Fargate）を使った0からのインフラ構築、</b>
-            ステージング環境の構築、GithubActionsを使ったCI/CDパイプラインの構築、デプロイ失敗時に自動ロールバック構築などを担当しました。翻訳機能の開発、AWSとGCPを連携させた音声→テキスト（Speech
+            ステージング環境の構築、GithubActionsを使ったCI/CDパイプラインの構築、デプロイ失敗時に自動ロールバック構築などを担当しました。そして翻訳機能の開発、AWSとGCPを連携させた音声→テキスト（Speech
             to Text）自動生成機能の開発、テキストから音声（Text to
-            Speech）の自動生成機能の開発、また、500エラーが本番環境で発生した時にSlackに通知する仕組みも作りました。
+            Speech）の自動生成機能の開発、500エラーが本番環境で発生した時にSlackに通知する仕組みなども作りました。
           </Text>
           <Text>
             バックエンドのRails側ではコミット時にRubocopを走らせるなどの基盤構築、Docker-composeを使った開発環境のDocker化、
