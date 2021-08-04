@@ -26,7 +26,7 @@ const career: NextPage = () => {
           <Text>
             法政大学を休学してプログラミングの独学を開始。ヘルスケアITベンチャーで保守改修業務を行ったのちに、
             <b>
-              現在はSaaSスタートアップの共同創業者&amp;エンジニアとして新規事業立ち上げ
+              現在はSaaSスタートアップの共同創業者とエンジニアとして新規事業立ち上げ
             </b>
             をしています。
           </Text>
@@ -83,7 +83,7 @@ const career: NextPage = () => {
           <li>
             <b>AWS</b>：S3, VPC, EC2, RDS, CloudFront, Lambda, ECR,
             ECS（Fargate）, Route53, ALB, ACM, CloudWatch, SNS, AWSChatbot, IAM,
-            AmazonPolly, AmazonTranslate
+            AmazonPolly, AmazonTranslate, AWS SecretsManager
           </li>
           <li>
             <b>GCP</b>：CloudStorage, Speech to Text
@@ -157,10 +157,11 @@ const career: NextPage = () => {
             <b>AWS</b>
           </Text>
           <li>ステージング環境構築</li>
-          <li>デプロイ失敗時の自動ロールバック機能</li>
           <li>Amazon Translateを使った翻訳機能の開発</li>
           <li>本番環境で500エラー時にSlackに通知を飛ばす</li>
+          <li>デプロイ失敗時の通知機能・自動ロールバック機能</li>
           <li>S3+CloudFrontを使った静的ファイルのホスティング</li>
+          <li>AWS Secrets Managerを使ったセキュアな環境変数管理</li>
           <li>
             AmazonPolly（Text to Speech）を使った文字列の自動音声化機能の開発
           </li>
@@ -182,14 +183,14 @@ const career: NextPage = () => {
           <Text>
             <b>その他</b>
           </Text>
-          <li>Vercelを使ったデプロイと、その運用</li>
+          <li>Vercel：デプロイと、その運用</li>
+          <li>
+            <b>GithubActions：CI/CDパイプラインの構築</b>
+          </li>
           <li>
             <b>Terraform：AWSリソースのインフラコード化</b>
           </li>
           <li>Firebase Authenticationを使った認証基盤の構築</li>
-          <li>
-            <b>GithubActionsを使ったCI/CDパイプラインの構築</b>
-          </li>
 
           <Text>
             <b>【バックエンド】</b>
@@ -280,7 +281,7 @@ const career: NextPage = () => {
             </p>
             <p>
               使用技術：Ruby on Rails, Next.js, Docker, GithubActions, AWS,
-              Vercel, GCP, ReactNative, Firebase, Algolia, Electron
+              Vercel, GCP, ReactNative, Firebase, Algolia, Electron, ffmpeg
             </p>
           </QuoteBox>
           <Text>
@@ -293,9 +294,9 @@ const career: NextPage = () => {
           <Text>
             インフラ側では
             <b>AWSでのECS（Fargate）を使った0からのインフラ構築、</b>
-            ステージング環境の構築、GithubActionsを使ったCI/CDパイプラインの構築、デプロイ失敗時に自動ロールバック構築などを担当しました。そして翻訳機能の開発、AWSとGCPを連携させた音声→テキスト（Speech
-            to Text）自動生成機能の開発、テキストから音声（Text to
-            Speech）の自動生成機能の開発、500エラーが本番環境で発生した時にSlackに通知する仕組みなども作りました。
+            ステージング環境の構築、GithubActionsを使ったCI/CDパイプラインの構築、デプロイ失敗時に自動ロールバック構築などを担当しました。そして翻訳機能の開発、AWSとGCPを連携させて、音声からテキスト（Speech
+            to
+            Text）自動生成機能の開発、動画ファイルから音声ファイルを作成→音声ファイルから文字起こし→字幕ファイルを生成する自動字幕機能の開発、500エラーが本番環境で発生した時にSlackに通知する仕組みなども作りました。
           </Text>
           <Text>
             バックエンドのRails側ではコミット時にRubocopを走らせるなどの基盤構築、Docker-composeを使った開発環境のDocker化、
