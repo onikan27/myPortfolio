@@ -24,9 +24,9 @@ const career: NextPage = () => {
 
           <TextHeader>キャリア要約</TextHeader>
           <Text>
-            法政大学を休学してプログラミングの独学を開始。ヘルスケアITベンチャーで新規機能開発や保守改修業務を行ったのちに、
+            法政大学を休学してヘルスケアITベンチャーでWebエンジニアとして、新規機能開発や保守改修業務を行ったのちに、
             <b>
-              現在はSaaSスタートアップの共同創業者とエンジニアとして新規事業立ち上げ
+              現在はSaaSスタートアップの執行役員とエンジニアとして新規事業立ち上げ
             </b>
             をしています。
           </Text>
@@ -50,7 +50,8 @@ const career: NextPage = () => {
           </Text>
           <li>HTML</li>
           <li>CSS,SCSS（FLOCSS,BEM設計の経験あり）</li>
-          <li>JavaScript（TypeScript）</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
           <li>Ruby</li>
 
           <Flex
@@ -89,8 +90,9 @@ const career: NextPage = () => {
           </li>
           <li>
             <b>AWS</b>：S3, VPC, EC2, RDS, CloudFront, Lambda, ECR,
-            ECS（Fargate）, Route53, ALB, ACM, CloudWatch, SNS, AWSChatbot, IAM,
-            AmazonPolly, AmazonTranslate, AWS SecretsManager
+            ECS（Fargate）, Route53, ALB, ACM, CloudWatch, SNS, AWS Chatbot,
+            IAM, Amazon Polly, Amazon Translate, AWS Secrets Manager, AWS
+            Systems Manager, ElastiCache
           </li>
           <li>
             <b>GCP</b>：CloudStorage, Speech to Text
@@ -150,13 +152,13 @@ const career: NextPage = () => {
             <b>【インフラ・DevOps】</b>
           </Text>
           <Text>
-            もっとも好きな分野がインフラ・DevOpsです。0→1のインフラ構築や、インフラのコード化、
+            もっとも好きな分野がインフラ・DevOpsです。0→1のインフラ構築や、インフラのコード化や
             <b>
               自動化を積極的に行うことでセキュリティの向上、リスクの減少、人件費の削減に貢献
             </b>
             しました。また、
             <b>
-              自分を含めた開発メンバーが、より質の高い仕事に集中できるように意識
+              自分を含めた開発メンバーが、より質の高く、コアな仕事に集中できるように意識
             </b>
             しました。
           </Text>
@@ -164,7 +166,10 @@ const career: NextPage = () => {
             <b>AWS</b>
           </Text>
           <li>ステージング環境構築</li>
+          <li>ElastiCacheを使ったredisの導入</li>
+          <li>EC2環境からECS（Fargate）への移行</li>
           <li>Amazon Translateを使った翻訳機能の開発</li>
+          <li>AWS SDKのJavaScriptやRubyを使っての開発</li>
           <li>本番環境で500エラー時にSlackに通知を飛ばす</li>
           <li>デプロイ失敗時の通知機能・自動ロールバック機能</li>
           <li>S3+CloudFrontを使った静的ファイルのホスティング</li>
@@ -209,6 +214,7 @@ const career: NextPage = () => {
           </Text>
           <li>RailsAPIでの開発経験</li>
           <li>Punditを使った認可の実装</li>
+          <li>モノリシックなRailsの開発経験</li>
           <li>コミット時にRubocopを走らせる</li>
           <li>Firebaseを使った認証機能の開発経験</li>
           <li>Sendgrid+ActionMailerのメール送信構築</li>
@@ -266,7 +272,7 @@ const career: NextPage = () => {
             </p>
           </QuoteBox>
           <Text>
-            学生インターンとしてジョイン。大学を休学していたので、
+            フルタイム・インターンとしてジョイン。大学を休学していたので、
             <b>週5フルタイムで勤務していました。</b>主にWeb、特にRuby on
             Railsでの保守改修系のタスクをこなしていました。レビュー文化が浸透していたので、経験が深い先輩エンジニアから質の高いコードの書き方を学ばせていただきました。
           </Text>
@@ -280,7 +286,7 @@ const career: NextPage = () => {
           </Text>
           <QuoteBox>
             <p>全体：10人未満（時期によって変動あり）</p>
-            <p>エンジニア：4人（時期によって変動あり）</p>
+            <p>エンジニア：6人（時期によって変動あり）</p>
             <p>期間：2021/02/01〜現在</p>
             <p>勤務形態：正社員・執行役員</p>
             <p>
@@ -292,7 +298,7 @@ const career: NextPage = () => {
             </p>
           </QuoteBox>
           <Text>
-            <b>共同創業者のエンジニアとしてジョイン。</b>
+            <b>エンジニア、執行役員としてジョイン。</b>
             フロント、バックエンド、インフラ、ネイティブアプリの新規開発をしながらPMをやっています。技術者に止まらず、
             <b>
               採用活動やビジネスサイドの議論にも積極的に参加し、サービスの質向上に勤めています。
@@ -303,7 +309,7 @@ const career: NextPage = () => {
             <b>AWSでのECS（Fargate）を使った0からのインフラ構築、</b>
             ステージング環境の構築、GithubActionsを使ったCI/CDパイプラインの構築、デプロイ失敗時に自動ロールバック構築などを担当しました。そして翻訳機能の開発、AWSとGCPを連携させて、音声からテキスト（Speech
             to
-            Text）自動生成機能の開発、動画ファイルから音声ファイルを作成→音声ファイルから文字起こし→字幕ファイルを生成する自動字幕機能の開発、500エラーが本番環境で発生した時にSlackに通知する仕組みなども作りました。
+            Text）自動生成機能の開発、動画ファイルから音声ファイルを作成→音声ファイルから文字起こし→字幕ファイルを生成する自動字幕機能の開発、ElastiCacheを使ったredisの導入、500エラーが本番環境で発生した時にSlackに通知する仕組みなども作りました。
           </Text>
           <Text>
             バックエンドのRails側ではコミット時にRubocopを走らせるなどの基盤構築、Docker-composeを使った開発環境のDocker化、
@@ -313,13 +319,17 @@ const career: NextPage = () => {
           <Text>
             フロント側ではNext.jsの基盤構築、
             <b>Algoliaを使った全文検索の構築、</b>
-            CSSフレームワーク（Chakra-UI）を使った開発などを行っています。
+            CSSフレームワーク（Chakra-UI）を使った開発など、様々な機能開発を行っています。
           </Text>
           <Text>
             ネイティブアプリ開発ではAlgoliaを使った全文検索の構築、Google認証の実装、動画撮影機能などを行っています。
           </Text>
           <Text>
-            ビジネスサイドでは、宰相活動、仕様レベルからのディスカッションや壁打ち、投資家向けへのピッチ経験などがあります。
+            ビジネスサイドでは、
+            <b>
+              採用活動、仕様レベルからのディスカッションや壁打ち、投資家向けへのピッチ経験
+            </b>
+            などがあります。
           </Text>
         </MainLayout>
       </Box>
