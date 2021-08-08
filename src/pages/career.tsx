@@ -29,10 +29,8 @@ const career: NextPage = () => {
               現在はSaaSスタートアップの執行役員とエンジニアの開発リーダーとして新規事業立ち上げ
             </b>
             をしています。
-          </Text>
-          <Text>
             <b>
-              エンジニアとしてはフロント、バックエンド、インフラ、Nativeでの技術選定から新規サービス開発
+              エンジニアとしてフロント、バックエンド、インフラ、Nativeでの技術選定から新規サービス開発
             </b>
             をしています。また、エンジニアリングだけでなく、
             <b>
@@ -237,10 +235,12 @@ const career: NextPage = () => {
             <b>Next.js+TypeScript+Stoplightでのスキーマ駆動</b>
             での様々な機能開発をしています。また、ユーザーが心地よく使えるようにパフォーマンス向上の面に気をつけて開発をしていました。
           </Text>
+          <li>レスポンシブ対応</li>
           <li>Atomic Designでの開発</li>
           <li>ContextAPIを使った状態管理</li>
           <li>Firebaseを使った認証機能の開発経験</li>
           <li>Next.js+TypeScript環境での開発経験</li>
+          <li>Next.jsでのSSG,SSR,ISRを使用した開発</li>
           <li>FLOCSS,BEM設計でのCSS（SCSS）開発経験</li>
           <li>Stoplightによるスキーマ駆動での開発と環境構築経験</li>
           <li>Algoliaを使った全文検索の構築（フロントエンド検索）</li>
@@ -274,16 +274,16 @@ const career: NextPage = () => {
             <p>担当業務：Web周りの保守改修・新規機能開発</p>
             <p>
               使用技術：Ruby on Rails, JavaScript, React, HTML, CSS(SCSS,
-              FLOCSS,BEM設計), Docker, CircleCI, AWS, RSpec
+              FLOCSS,BEM設計), Docker, CircleCI, AWS, RSpec, TypeScript
             </p>
           </QuoteBox>
           <Text>
             フルタイム・インターンとしてジョイン。大学を休学していたので、
             <b>週5フルタイムで勤務していました。</b>主にWeb、特にRuby on
-            Railsでの保守改修系のタスクをこなしていました。レビュー文化が浸透していたので、経験が深い先輩エンジニアから質の高いコードの書き方を学ばせていただきました。
+            Railsでの保守改修・新規機能開発のタスクをこなしていました。レビュー文化が浸透していたので、経験が深い先輩エンジニアから質の高いコードの書き方を学ばせていただきました。
           </Text>
           <Text>
-            FLOCSS,BEM設計でのデザインリニュアールや、
+            FLOCSS,BEM設計でのデザインリニュアール（レスポンシブ対応有り）や、
             <b>Railsを使った新規機能単位での開発</b>
             、RSpecによるテストコード記述、Github-Flowでの開発などの濃い経験を積ませていただきました。
           </Text>
@@ -299,8 +299,9 @@ const career: NextPage = () => {
               担当業務：<b>新規事業開発・PM・技術選定・インフラ構築</b>
             </p>
             <p>
-              使用技術：Ruby on Rails, Next.js, Docker, GithubActions, AWS,
-              Vercel, GCP, ReactNative, Firebase, Algolia, Electron, ffmpeg
+              使用技術：Ruby on Rails, Next.js, TypeScript, Docker,
+              GithubActions, AWS, Vercel, GCP, ReactNative, Firebase, Algolia,
+              Electron, ffmpeg
             </p>
           </QuoteBox>
           <Text>
@@ -318,7 +319,8 @@ const career: NextPage = () => {
             <b>AWSでのECS（Fargate）を使った0からのインフラ構築、</b>
             ステージング環境の構築、GithubActionsを使ったCI/CDパイプラインの構築、デプロイ失敗時に自動ロールバック構築などを担当しました。そして自動翻訳機能の開発、AWSとGCPを連携させて、音声からテキスト（Speech
             to
-            Text）自動生成機能の開発、動画ファイルから音声ファイルを作成→音声ファイルから文字起こし→字幕ファイルを生成する自動字幕機能の開発、ElastiCacheを使ったredisの導入、500エラーが本番環境で発生した時にSlackに通知する仕組みなども作りました。
+            Text）自動生成機能の開発、動画ファイルから音声ファイルを作成→音声ファイルから文字起こし→字幕ファイルを生成する自動字幕機能の開発、AWS
+            SDKを使ったアプリケーション開発、ElastiCacheを使ったredisの導入、500エラーが本番環境で発生した時にSlackに通知する仕組みなども作りました。
           </Text>
           <Text>
             バックエンドのRails側ではコミット時にRubocopを走らせるなどの基盤構築、Docker-composeを使った開発環境のDocker化、
@@ -326,10 +328,10 @@ const career: NextPage = () => {
             SendGrid+ActionMailerを使ったメール送信などの実装、ActiveStorage+S3による画像,動画ファイルの管理機能、動画のトリミング機能（ffmpeg）などの実装を担当しました。
           </Text>
           <Text>
-            フロント側ではNext.jsの基盤構築、
+            フロント側ではNext.jsの基盤構築、TypeScriptを使ったタイプセーフな開発、
             <b>Algoliaを使った全文検索の構築、</b>
             CSSフレームワーク（Chakra-UI）を使った開発、Stoplightを使ったスキーマ駆動開発、Atomic
-            Designでの開発など、他にも様々な機能開発を行っています。
+            Designでの開発、ContextAPIを使った状態管理、など他にも様々な機能開発を行っています。
           </Text>
           <Text>
             ネイティブアプリ開発ではAlgoliaを使った全文検索の構築、Google認証の実装、動画撮影機能などを行っています。
