@@ -274,7 +274,7 @@ const career: NextPage = () => {
             <p>担当業務：Web周りの保守改修・新規機能開発</p>
             <p>
               使用技術：Ruby on Rails, JavaScript, React, HTML, CSS(SCSS,
-              FLOCSS,BEM設計), Docker, CircleCI, AWS, RSpec
+              FLOCSS,BEM設計), Docker, CircleCI, AWS, RSpec, TypeScript
             </p>
           </QuoteBox>
           <Text>
@@ -319,7 +319,8 @@ const career: NextPage = () => {
             <b>AWSでのECS（Fargate）を使った0からのインフラ構築、</b>
             ステージング環境の構築、GithubActionsを使ったCI/CDパイプラインの構築、デプロイ失敗時に自動ロールバック構築などを担当しました。そして自動翻訳機能の開発、AWSとGCPを連携させて、音声からテキスト（Speech
             to
-            Text）自動生成機能の開発、動画ファイルから音声ファイルを作成→音声ファイルから文字起こし→字幕ファイルを生成する自動字幕機能の開発、ElastiCacheを使ったredisの導入、500エラーが本番環境で発生した時にSlackに通知する仕組みなども作りました。
+            Text）自動生成機能の開発、動画ファイルから音声ファイルを作成→音声ファイルから文字起こし→字幕ファイルを生成する自動字幕機能の開発、AWS
+            SDKを使ったアプリケーション開発、ElastiCacheを使ったredisの導入、500エラーが本番環境で発生した時にSlackに通知する仕組みなども作りました。
           </Text>
           <Text>
             バックエンドのRails側ではコミット時にRubocopを走らせるなどの基盤構築、Docker-composeを使った開発環境のDocker化、
@@ -327,10 +328,10 @@ const career: NextPage = () => {
             SendGrid+ActionMailerを使ったメール送信などの実装、ActiveStorage+S3による画像,動画ファイルの管理機能、動画のトリミング機能（ffmpeg）などの実装を担当しました。
           </Text>
           <Text>
-            フロント側ではNext.jsの基盤構築、
+            フロント側ではNext.jsの基盤構築、TypeScriptを使ったタイプセーフな開発、
             <b>Algoliaを使った全文検索の構築、</b>
             CSSフレームワーク（Chakra-UI）を使った開発、Stoplightを使ったスキーマ駆動開発、Atomic
-            Designでの開発など、他にも様々な機能開発を行っています。
+            Designでの開発、ContextAPIを使った状態管理、など他にも様々な機能開発を行っています。
           </Text>
           <Text>
             ネイティブアプリ開発ではAlgoliaを使った全文検索の構築、Google認証の実装、動画撮影機能などを行っています。
