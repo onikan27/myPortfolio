@@ -26,12 +26,15 @@ const career: NextPage = () => {
           <Text>
             法政大学を休学してヘルスケアITベンチャーでWebエンジニアとして、新規機能開発や保守改修業務を行ったのちに、
             <b>
-              現在はSaaSスタートアップの執行役員とエンジニアとして新規事業立ち上げ
+              現在はSaaSスタートアップの執行役員とエンジニアの開発リーダーとして新規事業立ち上げ
             </b>
             をしています。
           </Text>
           <Text>
-            また、エンジニアリングだけでなく、
+            <b>
+              エンジニアとしてはフロント、バックエンド、インフラ、Nativeでの技術選定から新規サービス開発
+            </b>
+            をしています。また、エンジニアリングだけでなく、
             <b>
               採用活動、仕様レベルでのディスカッション、壁打ちや投資家向けのピッチ経験
             </b>
@@ -84,6 +87,7 @@ const career: NextPage = () => {
           <Text>
             <b>【インフラ・その他】</b>
           </Text>
+          <li>Github：コード管理</li>
           <li>Docker：開発環境,本番環境のDocker化</li>
           <li>
             <b>GithubActions</b>：CI/CDパイプライン構築
@@ -100,6 +104,7 @@ const career: NextPage = () => {
           <li>
             <b>Terraform</b>：インフラのコード化
           </li>
+          <li>Firebase：Authentication, Storage</li>
 
           <Flex
             mt="24px"
@@ -168,12 +173,12 @@ const career: NextPage = () => {
           <li>ステージング環境構築</li>
           <li>ElastiCacheを使ったredisの導入</li>
           <li>EC2環境からECS（Fargate）への移行</li>
-          <li>Amazon Translateを使った翻訳機能の開発</li>
           <li>AWS SDKのJavaScriptやRubyを使っての開発</li>
           <li>本番環境で500エラー時にSlackに通知を飛ばす</li>
-          <li>デプロイ失敗時の通知機能・自動ロールバック機能</li>
+          <li>Amazon Translateを使った自動翻訳機能の開発</li>
           <li>S3+CloudFrontを使った静的ファイルのホスティング</li>
           <li>AWS Secrets Managerを使ったセキュアな環境変数管理</li>
+          <li>デプロイ失敗時のSlack通知機能・自動ロールバック機能</li>
           <li>
             AmazonPolly（Text to Speech）を使った文字列の自動音声化機能の開発
           </li>
@@ -229,9 +234,10 @@ const career: NextPage = () => {
           </Text>
           <Text>
             モノリシックなRails環境でのフロント開発やSPA環境でのNext.jsの開発経験があります。最近は、
-            <b>Next.js+TypeScript+Stoplightでのスキーマ駆動開発</b>
-            をしています。
+            <b>Next.js+TypeScript+Stoplightでのスキーマ駆動</b>
+            での様々な機能開発をしています。また、ユーザーが心地よく使えるようにパフォーマンス向上の面に気をつけて開発をしていました。
           </Text>
+          <li>Atomic Designでの開発</li>
           <li>ContextAPIを使った状態管理</li>
           <li>Firebaseを使った認証機能の開発経験</li>
           <li>Next.js+TypeScript環境での開発経験</li>
@@ -290,7 +296,7 @@ const career: NextPage = () => {
             <p>期間：2020/11/01〜現在</p>
             <p>勤務形態：正社員・執行役員</p>
             <p>
-              担当業務：<b>新規事業開発・PM・インフラ構築</b>
+              担当業務：<b>新規事業開発・PM・技術選定・インフラ構築</b>
             </p>
             <p>
               使用技術：Ruby on Rails, Next.js, Docker, GithubActions, AWS,
@@ -298,8 +304,11 @@ const career: NextPage = () => {
             </p>
           </QuoteBox>
           <Text>
-            <b>エンジニア、執行役員としてジョイン。</b>
-            フロント、バックエンド、インフラ、ネイティブアプリの新規開発をしながらPMをやっています。技術者に止まらず、
+            エンジニア開発リーダー、執行役員としてジョイン。
+            <b>
+              フロント、バックエンド、インフラ、ネイティブアプリの技術選定・新規開発をしながらPMを担っています。
+            </b>
+            技術者に止まらず、
             <b>
               採用活動やビジネスサイドの議論にも積極的に参加し、サービスの質向上に勤めています。
             </b>
@@ -307,19 +316,20 @@ const career: NextPage = () => {
           <Text>
             インフラ側では
             <b>AWSでのECS（Fargate）を使った0からのインフラ構築、</b>
-            ステージング環境の構築、GithubActionsを使ったCI/CDパイプラインの構築、デプロイ失敗時に自動ロールバック構築などを担当しました。そして翻訳機能の開発、AWSとGCPを連携させて、音声からテキスト（Speech
+            ステージング環境の構築、GithubActionsを使ったCI/CDパイプラインの構築、デプロイ失敗時に自動ロールバック構築などを担当しました。そして自動翻訳機能の開発、AWSとGCPを連携させて、音声からテキスト（Speech
             to
             Text）自動生成機能の開発、動画ファイルから音声ファイルを作成→音声ファイルから文字起こし→字幕ファイルを生成する自動字幕機能の開発、ElastiCacheを使ったredisの導入、500エラーが本番環境で発生した時にSlackに通知する仕組みなども作りました。
           </Text>
           <Text>
             バックエンドのRails側ではコミット時にRubocopを走らせるなどの基盤構築、Docker-composeを使った開発環境のDocker化、
             <b>FirebaseAuthentication+Rails+Next.js構成のGoogle認証の構築、</b>
-            SendGrid+ActionMailerを使ったメール送信などの実装、ActiveStorage+S3による画像,動画ファイルの管理機能などの実装を担当しました。
+            SendGrid+ActionMailerを使ったメール送信などの実装、ActiveStorage+S3による画像,動画ファイルの管理機能、動画のトリミング機能（ffmpeg）などの実装を担当しました。
           </Text>
           <Text>
             フロント側ではNext.jsの基盤構築、
             <b>Algoliaを使った全文検索の構築、</b>
-            CSSフレームワーク（Chakra-UI）を使った開発など、様々な機能開発を行っています。
+            CSSフレームワーク（Chakra-UI）を使った開発、Stoplightを使ったスキーマ駆動開発、Atomic
+            Designでの開発など、他にも様々な機能開発を行っています。
           </Text>
           <Text>
             ネイティブアプリ開発ではAlgoliaを使った全文検索の構築、Google認証の実装、動画撮影機能などを行っています。
