@@ -22,7 +22,7 @@ const Home: NextPage = () => {
           <UpdateDay>2021/08/02</UpdateDay>
           <TextHeader>基本情報</TextHeader>
           <Text>
-            あきの（秋野）と申します。東京在住の21歳です。SaaSスタートアップで執行役員&amp;エンジニアをしています。サービス開発とDevOpsが大好きです。
+            あきの（秋野）と申します。東京在住の21歳です。SaaSスタートアップで執行役員&amp;エンジニアの開発リーダーをしています。サービス開発とDevOpsが大好きです。
           </Text>
           <Text>
             <b>【学歴・職歴】</b>
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
           <li>法政大学・経済学部・現代ビジネス学科</li>
           <li>ヘルスケアITベンチャー：Railsエンジニア</li>
           <li>
-            SaaSスタートアップ：執行役員&amp;エンジニア&amp;PMを担当
+            SaaSスタートアップ：執行役員&amp;エンジニア（開発リーダー）&amp;PMを担当
             <b>（現在）</b>
           </li>
 
