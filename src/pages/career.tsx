@@ -91,10 +91,10 @@ const career: NextPage = () => {
             <b>GithubActions</b>：CI/CDパイプライン構築
           </li>
           <li>
-            <b>AWS</b>：S3, VPC, EC2, RDS, CloudFront, Lambda, ECR,
-            ECS（Fargate）, Route53, ALB, ACM, CloudWatch, SNS, AWS Chatbot,
-            IAM, Amazon Polly, Amazon Translate, AWS Secrets Manager, AWS
-            Systems Manager, ElastiCache
+            <b>AWS</b>：S3｜VPC｜EC2｜RDS｜CloudFront｜Lambda｜ECR｜
+            ECS（Fargate）｜Route53｜ALB｜ACM｜CloudWatch｜SNS｜AWS Chatbot|
+            IAM｜Amazon Polly｜Amazon Translate｜AWS Secrets Manager｜AWS
+            Systems Manager｜ElastiCache｜
           </li>
           <li>
             <b>GCP</b>：CloudStorage, Speech to Text
@@ -157,7 +157,7 @@ const career: NextPage = () => {
           <Text>
             もっとも好きな分野がインフラ・DevOpsです。0→1のインフラ構築や、インフラのコード化や
             <b>
-              自動化を積極的に行うことでセキュリティの向上、リスクの減少、人件費の削減に貢献
+              自動化を積極的に行うことで高可用性、セキュリティ性の向上、リスクの減少、人件費の削減に貢献
             </b>
             しました。また、
             <b>
