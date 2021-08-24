@@ -50,6 +50,7 @@ const Home: NextPage = () => {
             <Image src="/skill/js.svg" w="60px" h="60px" mr="15px" />
             <Image src="/skill/typescript.svg" w="60px" h="60px" mr="15px" />
             <Image src="/skill/ruby.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/go-logo.svg" w="60px" h="60px" mr="15px" />
           </Flex>
 
           <Text>

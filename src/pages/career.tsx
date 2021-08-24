@@ -54,6 +54,7 @@ const career: NextPage = () => {
           <li>JavaScript</li>
           <li>TypeScript</li>
           <li>Ruby</li>
+          <li>Golang</li>
 
           <Flex
             mt="24px"
@@ -67,6 +68,7 @@ const career: NextPage = () => {
             <Image src="/skill/js.svg" w="60px" h="60px" mr="15px" />
             <Image src="/skill/typescript.svg" w="60px" h="60px" mr="15px" />
             <Image src="/skill/ruby.svg" w="60px" h="60px" mr="15px" />
+            <Image src="/skill/go-logo.svg" w="60px" h="60px" mr="15px" />
           </Flex>
 
           <Text>
