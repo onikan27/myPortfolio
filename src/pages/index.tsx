@@ -19,7 +19,7 @@ const Home: NextPage = () => {
             />
           </Center>
           <Title>About Me</Title>
-          <UpdateDay>2021/08/02</UpdateDay>
+          <UpdateDay>2021/09/10</UpdateDay>
           <TextHeader>基本情報</TextHeader>
           <Text>
             あきの（秋野）と申します。東京在住の21歳です。SaaSスタートアップで執行役員&amp;エンジニアの開発リーダーをしています。サービス開発とDevOpsが大好きです。
