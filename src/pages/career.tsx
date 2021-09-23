@@ -20,7 +20,7 @@ const career: NextPage = () => {
             />
           </Center>
           <Title>My Career &amp; Skill</Title>
-          <UpdateDay>2021/09/10</UpdateDay>
+          <UpdateDay>2021/09/24</UpdateDay>
 
           <TextHeader>キャリア要約</TextHeader>
           <Text>
